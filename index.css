@@ -171,13 +171,14 @@ main {
   .hidden {
     display: none;
   }
-  @media (max-width:780px ){
+
+  @media (max-width:400px ){
     main{
-      width: 50rem;
-  height: 50rem;
+      width: 30rem;
+  height: 45rem;
     }
     .player {
-      width: 25rem;
+      width: 15rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -189,42 +190,30 @@ main {
   .player:first-child {
     
   
-    width: 25rem;
+    width: 15rem;
   }
   .playe:last-child {
     
-    width: 25rem;
+    width: 15rem;
   }
   .name {
     position: relative;
-    font-size: 2rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
     letter-spacing: 1px;
-    word-spacing: 1.5px;
+    word-spacing: 1px;
     font-weight: 300;
     margin-bottom: 0.5rem;
     margin-top: 1.5rem;
   }
   
   .score {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 300;
     color: #c7365f;
     margin-bottom: auto;
   }
-  .current {
-    background-color: #c7365f;
-    padding: 15px;
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
   
-    margin-top: 30px;
-  
-    text-align: center;
-    opacity: 0.8;
-    transition: all 0.75s;
-  }
   .current-label {
     text-transform: uppercase;
     margin-bottom: 1rem;
@@ -239,8 +228,8 @@ main {
   .current {
   background-color: #c7365f;
   padding: 20px;
-  width: 150px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
   border-radius: 10px;
 
   margin-top: 30px;
@@ -251,13 +240,16 @@ main {
 }
 .current-label {
   text-transform: uppercase;
-  margin-bottom: 1rem;
-  font-size: 1.7rem;
+  margin-bottom: 0.5rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  
+  
   color: #ddd;
 }
 
 .current-score {
-  font-size: 3.5rem;
+  font-size: 1.6rem;
   color: #ddd;
 }
 .btn{
@@ -268,7 +260,7 @@ main {
   background: none;
   border: none;
   font-family: inherit;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
 text-transform: uppercase;
 cursor: pointer;
 font-weight: 400;
@@ -283,7 +275,7 @@ border-radius: 50rem;
 box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
 }
 .btn::first-letter {
-  font-size: 2.4rem;
+  font-size: 2rem;
   display: inline-block;
   margin-right: 0.7rem;
 }
@@ -295,7 +287,7 @@ box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
   top: 17rem;
 }
 .btn--hold {
-  top: 25rem;
+  top: 23rem;
 }
 
   }
